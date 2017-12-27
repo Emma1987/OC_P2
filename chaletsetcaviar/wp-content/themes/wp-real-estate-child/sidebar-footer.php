@@ -16,7 +16,7 @@
 				<?php endif;
 					
 				if ( is_active_sidebar( 'wpre-footer-2' ) ) : ?>
-					<div class="footer-column col-md-4 hidden-sm"> 
+					<div class="footer-column col-md-4 hidden-xs hidden-sm"> 
 						<?php dynamic_sidebar( 'wpre-footer-2'); ?> 
 					</div> 
 				<?php endif;
